@@ -140,5 +140,22 @@ ul {
 
 .hero-title,
 .mifp {
-  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.635);
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
+
+/* page */
+
+.content-section {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 20px;
+  z-index: 2;
+}
+
+.content-section.active {
+  display: block;
+}
+

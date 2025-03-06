@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Міфічні істоти</title>
+
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -37,10 +39,33 @@
                     </a>
                     <div class="shadow">
                         <ul class="header-menu">
-                            <li><a class="nav-link" href="#mifbeing">Міфічні істоти</a></li>
-                            <li><a class="nav-link" href="#myths">Міфи</a></li>
-                            <li><a class="nav-link" href="#mifplace">Міфічні місця</a></li>
+                            <li><a class="nav-link" href="javascript:void(0);" onclick="showContent('mifbeing')">Міфічні
+                                    істоти</a></li>
+                            <li><a class="nav-link" href="javascript:void(0);" onclick="showContent('myths')">Міфи</a>
+                            </li>
+                            <li><a class="nav-link" href="javascript:void(0);" onclick="showContent('mifplace')">Міфічні
+                                    місця</a></li>
                         </ul>
+
+                        <div id="mifbeing" class="content-section">
+                            <h2>Міфічні істоти</h2>
+                            <p>Текст про міфічних істот...</p>
+                            <img src="mifbeing.jpg" alt="Міфічні істоти">
+                        </div>
+
+                        <div id="myths" class="content-section">
+                            <h2>Міфи</h2>
+                            <p>Текст про міфи...</p>
+                            <img src="myths.jpg" alt="Міфи">
+                        </div>
+
+                        <div id="mifplace" class="content-section">
+                            <h2>Міфічні місця</h2>
+                            <p>Текст про міфічні місця...</p>
+                            <img src="mifplace.jpg" alt="Міфічні місця">
+                        </div>
+
+                    </div>
                 </nav>
             </div>
         </div>
@@ -48,5 +73,6 @@
     </header>
 </body>
 
+<script src="page.js"></script>
 
 </html>
