@@ -19,6 +19,7 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
+  background: black
 }
 
 canvas {
@@ -67,10 +68,14 @@ ul {
 
 /* hero-section */
 .hero {
-  background: url('./images/fonheader.png') no-repeat center center;
+  background: black url('./images/fonheader.png') no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
+}
+
+.accent {
+  font-size: 50px;
 }
 
 .mifp {
@@ -119,7 +124,7 @@ ul {
 .nav-link {
   color: white;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 30px;
   transition: color 0.3s ease;
 }
 
@@ -134,13 +139,14 @@ ul {
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.416);
+  background: rgba(0, 0, 0, 0.164);
   z-index: 1;
 }
 
 .hero-title,
 .mifp {
   text-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+  font-size: 30px;
 }
 
 /* page */
@@ -156,6 +162,41 @@ ul {
 }
 
 .content-section.active {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 600px;
+  width: 100vw;
+}
+
+.content-section.active {
+text-shadow: black ;
+padding-right: 500px ;
+padding-left: 500px;
+}
+
+.photo{
+  width: 40%;
+  height: 40%;
+
+}
+
+.content-section.active h2 {
+  font-size: 50px;
+}
+
+.content-section.active p {
+  font-size: 30px;
+}
+
+.title-mif {
+  font-size: 30px;
+  margin: 15px;
+  color: rgb(0, 102, 255);
+}
+
+.pmif{
+  padding-bottom: 20px;
 }
 
