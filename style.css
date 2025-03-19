@@ -206,12 +206,18 @@ padding-left: 500px;
   color: rgb(163, 192, 235);
 }
 
-.pgod{
-  padding-bottom: 20px;
+.text-god {
+  margin: 30px;
 }
 
 .margin-god{
   margin-bottom: 100px;
+}
+
+.info-god{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .legendu-p{
