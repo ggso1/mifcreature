@@ -193,7 +193,7 @@ padding-left: 500px;
 .title-mif {
   font-size: 30px;
   margin: 15px;
-  color: rgb(0, 102, 255);
+  color: rgb(163, 192, 235);
 }
 
 .pmif{
@@ -203,10 +203,17 @@ padding-left: 500px;
 .title-god{
   font-size: 30px;
   margin: 15px;
-  color: rgb(0, 102, 255);
+  color: rgb(163, 192, 235);
 }
 
 .pgod{
   padding-bottom: 20px;
 }
 
+.margin-god{
+  margin-bottom: 100px;
+}
+
+.legendu-p{
+margin: 30px;
+}
