@@ -19,7 +19,7 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
-  background: black
+  background: black;
 }
 
 canvas {
@@ -68,10 +68,11 @@ ul {
 
 /* hero-section */
 .hero {
-  background: black url('./images/fonheader.png') no-repeat center center;
+  background: black url('./images/video.gif') no-repeat center center;
   background-size: cover;
   height: 100vh;
   position: relative;
+  font-family: "Ponomar", system-ui;
 }
 
 .accent {
@@ -126,6 +127,19 @@ ul {
   text-decoration: none;
   font-size: 30px;
   transition: color 0.3s ease;
+  background-color: #c3c5c7; /* Зелений фон */
+  border: none; /* Без обводки */
+  color: rgb(0, 0, 0); /* Білий текст */
+  padding: 10px 20px; /* Відступи */
+  text-align: center; /* Центрування тексту */
+  text-decoration: none; /* Без підкреслення */
+  display: inline-block;
+  font-size: 25px; /* Розмір шрифта */
+  margin: 4px 2px;
+  cursor: pointer; /* Курсор при наведенні */
+  border-radius: 12px; /* Закруглені кути */
+  transition: background-color 0.3s ease; /* Анімація зміни фону */
+  font-family: "Ponomar", system-ui;
 }
 
 .nav-link:hover {
@@ -171,12 +185,12 @@ ul {
 }
 
 .content-section.active {
-text-shadow: black ;
-padding-right: 500px ;
-padding-left: 500px;
+  text-shadow: black;
+  padding-right: 500px;
+  padding-left: 500px;
 }
 
-.photo{
+.photo {
   width: 40%;
   height: 40%;
 
@@ -196,11 +210,11 @@ padding-left: 500px;
   color: rgb(163, 192, 235);
 }
 
-.pmif{
+.pmif {
   padding-bottom: 20px;
 }
 
-.title-god{
+.title-god {
   font-size: 30px;
   margin: 15px;
   color: rgb(163, 192, 235);
@@ -210,16 +224,21 @@ padding-left: 500px;
   margin: 30px;
 }
 
-.margin-god{
+.margin-god {
   margin-bottom: 100px;
 }
 
-.info-god{
+.info-god {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.legendu-p{
-margin: 30px;
+.photogod {
+  width: 300px;
+  height: 300px;
+}
+
+.legendu-p {
+  margin: 30px;
 }
